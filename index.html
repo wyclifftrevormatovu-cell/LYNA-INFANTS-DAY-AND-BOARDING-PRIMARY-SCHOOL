@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyna Infants’ Day and Boarding Primary School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50; /* green */
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f44336; /* red */
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            display: block;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background-color: #ffd600; /* yellow highlight */
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #FFEB3B; /* yellow */
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.2rem;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .hero .photo-placeholder {
+            margin-top: 30px;
+            height: 250px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 20px;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #4CAF50;
+            font-size: 2rem;
+        }
+        section p {
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            text-align: center;
+        }
+
+        /* Programs & Staff Grid */
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            flex: 1 1 250px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .card h3 {
+            color: #f44336; /* red */
+            margin-bottom: 15px;
+        }
+        .card .photo-placeholder {
+            height: 150px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info a {
+            color: #f44336;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="badge-placeholder.png" alt="School Badge">
+    <h1>Lyna Infants’ Day and Boarding Primary School</h1>
+    <p>Strive for a Joyful Future</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#programs">Programs</a>
+    <a href="#staff">Staff</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Welcome to Lyna Infants’ Day and Boarding Primary School</h2>
+    <p>Providing holistic education to nurture successful and self-sustainable learners.</p>
+    <div class="photo-placeholder">[Add School Photo Here]</div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Lyna Infants’ Day and Boarding Primary School is dedicated to providing high-quality education that develops literacy, numeracy, morals, and essential skills for self-sustainability. Our programs ensure every child becomes a holistic learner ready to thrive in life.</p>
+    <p><strong>Vision:</strong> To become the most successful school in terms of literacy, numeracy, morals, and skills; producing holistic learners for self-sustainability.</p>
+    <p><strong>Mission:</strong> Provision of basic and quality education to learners for self-sustainability.</p>
+    <div class="photo-placeholder">[Add About School Photo Here]</div>
+</section>
+
+<section id="programs">
+    <h2>Programs & Activities</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Early Childhood Development (MDD)</h3>
+            <p>Engaging programs for young learners to develop foundational skills in a nurturing environment.</p>
+            <div class="photo-placeholder">[Add MDD Photo]</div>
+        </div>
+        <div class="card">
+            <h3>Sports & Games</h3>
+            <p>Promoting physical fitness, teamwork, and discipline through various sports and recreational activities.</p>
+            <div class="photo-placeholder">[Add Sports Photo]</div>
+        </div>
+    </div>
+</section>
+
+<section id="staff">
+    <h2>Our Dedicated Staff</h2>
+    <p>Our professional staff are committed to guiding every child’s educational journey and personal growth.</p>
+    <div class="grid">
+        <div class="card">
+            <h3>Teacher Name</h3>
+            <p>Subject / Role</p>
+            <div class="photo-placeholder">[Add Staff Photo]</div>
+        </div>
+        <div class="card">
+            <h3>Teacher Name</h3>
+            <p>Subject / Role</p>
+            <div class="photo-placeholder">[Add Staff Photo]</div>
+        </div>
+        <!-- Add more staff cards as needed -->
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p>Phone: 0703259729 | 0702020321</p>
+        <p>Email: <a href="mailto:lynainfantsps@gmail.com">lynainfantsps@gmail.com</a></p>
+        <p>Address: Lukaya along Kampala-Masaka Road, near Road Toll Market</p>
+    </div>
+    <div class="photo-placeholder">[Add Map / Location Photo]</div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Lyna Infants’ Day and Boarding Primary School. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
